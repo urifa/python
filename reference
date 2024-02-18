@@ -1,1 +1,67 @@
+# Python
 
+Notas sobre Python.
+
+## Introduccion 
+
+Python es un lenguaje de programación orientado a objetos. En Python, todo es un objeto. Se puede comprobar esto usando la función predefinida `type()`.
+
+let's start with the idea that there are two kinds of things: values and the types of those values.
+
+- Value in python can be, for example, a number, a list, or even a function.
+- Types of values describe those, so the type of a number might be int for example.
+
+so far we have only considered things "built in" to the language. but you can also define your own things. to do that you define a new class. the type() function will say (in python 3) that the type of an instance of your class is the class itself:
+
+so maybe you define a class called MyFoo:
+
+## Variables
+
+A diferencia de otros lenguajes, una el tipo de dato que contiene una variable viene definido directamente por su contenido (el valor que almacena) y no por el contenedor.
+
+## Tipos de Datos
+
+### Enteros y Flotantes
+
+The integer numbers (e.g. 2, 4, 20) have type int, the ones with a fractional part (e.g. 5.0, 1.6) have type float. We will see more about numeric types later in the tutorial.
+
+### String
+
+Value types are called this way because variables of these types will always be passed by value, i.e. they are always copied when they are used as function arguments or in assignments. With value types, you can have an independent copy whenever a variable of value type is used.
+
+### Boolean
+
+### List
+
+### Tuple
+
+### Range 
+
+## Funciones
+
+Functions are blocks of lines of code performing some specific task, and they purpose is to reuse code when necessary.
+
+They accept parameters and arguments, and can also return a value. Functions existing inside a class are called methods.
+
+```
+def funcion_suma(n1, n2):
+    print(f"Esta funcion devuelve la suma de dos valores, {n1} y {n2}")
+    return n1 + n2
+```
+
+El codifo de una función solo es ejecutado con la llamada de la misma. Para llamar a una función, hay que indicar el nombre de la misma, seguido de parentesis, y, en caso de que esta acepte parametros, el valor de cada uno de los parametros que acepta, separados por comas.
+
+``
+funcion_suma(4, 5)
+``
+
+### Builtin Functions
+
+Builtin functions are functions that comes with the language by default, and we can use.
+
+```
+print()  # Displays the text inside it
+input()  # 
+```
+
+##
